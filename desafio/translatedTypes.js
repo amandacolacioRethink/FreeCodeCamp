@@ -1,4 +1,4 @@
-export const traducaoTipos = {
+export const translatePokemonTypeNames = {
   grass: "grama",
   poison: "veneno",
   fire: "fogo",
