@@ -50,6 +50,36 @@ const shoppingSpree = wishlist.reduce((acc, curr) => acc + curr.price, 0);
 console.log(shoppingSpree);
 
 //Exercício 5
+
+// com if e else
+// const votersResult = voters.reduce((acc, curr) => {
+//     if (curr.age < 26) {
+//       acc.numYoungPeople++;
+//       if (curr.voted) {
+//         acc.numYoungVotes++;
+//       }
+//     } else if (curr.age < 41) {
+//       acc.numMidsPeople++;
+//       if (curr.voted) {
+//         acc.numMidVotesPeople++;
+//       }
+//     } else {
+//       acc.numOldsPeople++;
+//       if (curr.voted) {
+//         acc.numOldVotesPeople++;
+//       }
+//     }
+//     return acc;
+//   }, {
+//     numYoungVotes: 0,
+//     numYoungPeople: 0,
+//     numMidVotesPeople: 0,
+//     numMidsPeople: 0,
+//     numOldVotesPeople: 0,
+//     numOldsPeople: 0,
+//   });
+
+// operador ternario
 const votersResult = voters.reduce(
   (acc, curr) => {
     curr.age < 26
