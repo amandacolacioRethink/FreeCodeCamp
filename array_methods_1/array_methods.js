@@ -34,9 +34,8 @@ console.log(concatValues([1, 2, 3, 4, 5, 6, 7, 8, 9, 1]));
 
 //Exercício 4
 
-const getShortWords = (arr) => {
-  return arr.filter((word) => word.length <= 5);
-};
+const getShortWords = (arr) => arr.filter((word) => word.length <= 5);
+
 console.log(
   getShortWords([
     "cachorro",
