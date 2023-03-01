@@ -16,8 +16,8 @@ const changeDifficulty = (difficulty) => (programming.difficulty = difficulty);
 changeDifficulty(8);
 
 //Exercício 3
-const deleteKeyFromObject = () => delete programming.jokes;
-deleteKeyFromObject();
+const deleteKeyFromObject = (key) => delete programming[key];
+deleteKeyFromObject("jokes");
 
 //Exercício 4
 const addNewKey = () => (programming.IsFun = true);
